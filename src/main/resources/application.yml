@@ -1,0 +1,12 @@
+logging:
+  level:
+    openmart:
+      apigateway:
+        api: DEBUG
+  path: "/tank0/logs"
+
+zuul:
+  routes:
+    open-mart-api:
+      path: /v1/mart/**
+      stripPrefix: false
