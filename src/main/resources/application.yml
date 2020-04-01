@@ -8,9 +8,9 @@ logging:
 zuul:
   routes:
   open-mart-api:
-      path: /v1/mart/**
-      url: http://localhost:8082
-      stripPrefix: false
+    path: /v1/mart/**
+    url: http://localhost:8082
+    stripPrefix: false
   host:
     connect-timeout-millis: 3000
     socket-timeout-millis: 10000
